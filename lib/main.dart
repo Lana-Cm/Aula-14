@@ -45,7 +45,7 @@ class ChatEcoPage extends StatefulWidget {
 class _ChatEcoPageState extends State<ChatEcoPage> {
   final TextEditingController _mensagemController = TextEditingController();
   final TextEditingController _urlController = TextEditingController(
-    text: 'wss://echo.websocket.events',
+    text: 'wss://echo.websocket.org',
   );
 
   final StreamController<List<Mensagem>> _mensagensController =
